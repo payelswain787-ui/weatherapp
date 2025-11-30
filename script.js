@@ -88,7 +88,7 @@ class WeatherApp {
         document.getElementById('windSpeed').textContent = `${data.wind.speed} m/s`;
 
         // In real app, you would use: document.getElementById('weatherIcon').src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-        document.getElementById('weatherIcon').src = 'https://via.placeholder.com/100x100/74b9ff/ffffff?text=☀️';
+        document.getElementById('weatherIcon').src = 'cloudy.png';
     }
 
     addToRecentSearches(city) {
